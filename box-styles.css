@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+h1, p {
+    background-color: #DDE0E3;
+    padding: 20px;
+}
+em, strong{
+    background-color: #B2D6FF;
+}
+
+h1{
+    padding: 50px;
+    border-bottom: 1px solid #5D6063
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: navy;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+li {
+    display: inline; //this removes the line breaks
+    color: white;
+    padding: 40px;
+}
+
+div.button {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  margin: 50px auto;
+}
+
+div.page {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1.title {
+    color: red;
+}
